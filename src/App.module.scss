@@ -1,0 +1,36 @@
+@import './styles/settings.scss';
+
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #2f3542;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.generalButton {
+    background: #8ae9b3;
+    border: 0;
+    color: white;
+    text-align: center;
+    line-height: 1.3;
+    padding: 12px;
+    margin: 0 12px 12px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.5s;
+
+    &:hover {
+        background: darken(#8ae9b3, 5%);
+    }
+}
+
